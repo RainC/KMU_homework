@@ -74,7 +74,7 @@ public class Library {
 
             } else {
                 System.out.println(books[i].getTitle());
-                System.out.println(books[i].isInPlace());
+                System.out.println(this.name);
             }
 
         }
