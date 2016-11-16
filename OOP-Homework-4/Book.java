@@ -1,7 +1,7 @@
 
 public class Book {
-    String title;
-    boolean inPlace = true;
+    private String title;
+    private boolean inPlace = true;
 
     public Book(String title) {
         this.title = title;
