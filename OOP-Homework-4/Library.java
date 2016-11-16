@@ -80,9 +80,6 @@ public class Library {
         }
     }
     public void addBook(Book book) {
-        String bookTitle = book.getTitle();
-        boolean getBorrowed = book.isInPlace();
-
         boolean checkBookAvailable = false;
         int availableBookIndex = 0;
         for (int i = 0; i < 10; i++) {
