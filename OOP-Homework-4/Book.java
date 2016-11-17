@@ -29,9 +29,14 @@ public class Book {
 
         }
     }
+    
     public void handIn() {
-        this.inPlace = true;
-        System.out.println("Thank you for returning " + this.title);
+        if (inPlace == true) {
+            System.out.println(this.title  + " is not rented yet (you cannot return it)");
+        } else {
+            System.out.println("Thank you for returning " + this.title);
+            this.inPlace = true;
+        }
     }
 
     public static void main(String[] args) {
